@@ -32,7 +32,7 @@ function Home() {
                 <h1>HRnet</h1>
             </div>
             <div className="container">
-                <Link to="/employee-list">View Current Employees</Link>
+                <Link to="/P14/employee-list">View Current Employees</Link>
                 <h2>Create Employee</h2>
                 <Form />
                 <button className="button" onClick={saveEmployee}>Save</button>
