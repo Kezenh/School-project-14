@@ -29,7 +29,7 @@ function Home() {
     return (
         <div className="home">
             <div className="title">
-                <h1>HRnet1</h1>
+                <h1>HRnet</h1>
             </div>
             <div className="container">
                 <Link to="/P14/employee-list">View Current Employees</Link>
