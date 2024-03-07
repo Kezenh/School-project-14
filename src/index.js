@@ -16,7 +16,7 @@ root.render(
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/employee-list" element={<EmployeeList />} />
-        <Route path ="*" element={<Home />} />
+        <Route path ="*" element={<Error />} />
       </Routes>
     </Router>
   </Provider>
