@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
   <Provider store={store}>
-    <Router>
+    <Router basename="/School-project-14">
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/employee-list" element={<EmployeeList />} />
