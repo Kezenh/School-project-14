@@ -14,8 +14,8 @@ root.render(
   <Provider store={store}>
     <Router>
       <Routes>
-        <Route exact path="/P14/" element={<Home />} />
-        <Route exact path="/P14/employee-list" element={<EmployeeList />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/employee-list" element={<EmployeeList />} />
         <Route path ="*" element={<Error />} />
       </Routes>
     </Router>
