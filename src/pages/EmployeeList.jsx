@@ -8,7 +8,7 @@ function EmployeeList() {
         <div id="employee-div">
             <h1>Current Employees</h1>
             <Table />
-            <Link to="/P14/">Home</Link>
+            <Link to="/">Home</Link>
         </div>
     )
 }
